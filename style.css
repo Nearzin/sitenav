@@ -1,0 +1,77 @@
+/* Reset básico para garantir que o estilo seja consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilo para a lista de itens no menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para os itens da lista do menu */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Estilo para os links do menu */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito hover para os links do menu */
+nav ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo para as seções da página */
+section {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos das seções */
+section h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Estilo para o parágrafo dentro das seções */
+section p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
